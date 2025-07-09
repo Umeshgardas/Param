@@ -1,0 +1,29 @@
+.feature-detail-container {
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.feature-detail-container h2 {
+  margin-bottom: 20px;
+  color: #6e00ff;
+}
+
+.feature-detail-container p {
+  font-size: 1rem;
+  color: #444;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
